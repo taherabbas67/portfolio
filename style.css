@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100;200&display=swap');
+
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+/*
+font-family: 'Comforter', cursive;
+*/
+
+
+
+/*
+     Colour Set1
+
+     background -- #EEEEEE
+     Red -- #DA1212
+     lightBlue -- #11468F
+     darkBlue -- #041562
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+#headerMain{
+  margin: 30px;
+}
+#resume{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color: #041562;
+    text-decoration: none;
+}
+
+section{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#bodyMain{
+    display: flex;
+    padding-top: 5em;
+}
+
+#nameDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#name1{
+    font-family: 'Montserrat', sans-serif;
+    color: #041562;
+    font-size: 32px;
+    text-shadow: 1px 1px #11468F ; /* #041562 */
+}
+#titleName{
+    font-family: 'Comfortaa', cursive;
+    color: #041562;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1.8px 1.8px #11468F ; /* #041562 */
+}
+
+#img1{
+    width: 380px;
+    height: auto;
+}
+.tagsMain{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #041562;
+    padding-top: 10px;
+}
+
+
+#imgMain{
+    width: 450px;
+    height: auto;
+    padding-left: 10em;
+}
+
+#hr1{
+  border-top: 2px dashed #041562;
+  margin-top: 130px;
+  /*margin-left: 215px;*/
+}
+
+.about{
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 70px;
+}
+
+.sideHeading{
+  font-family: 'Comfortaa', cursive;
+  color: #041562;
+  font-size: 30px;
+  padding-top: 20px;
+  text-shadow: 1px 1px #041562 ; /* #041562 */
+}
+
+.p1{
+  font-family: 'Open Sans', sans-serif;
+  color: #041562;
+  padding-top: 20px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+#nameHighlight{
+  font-weight: 900;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  /*background-color: #7fff00; */ /* Radium colour */
+  text-shadow: 1px 1px #11468F;
+}
+.highlight{
+  font-family: 'Open Sans', sans-serif;
+  /*background-color: #7fff00; */ /* Radium colour */
+  text-shadow: 1px 1px #041562 ; /* #041562 */
+}
+
+
+
+
+
+                                        /* Tech Part */
+
+.techIconDiv{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.iconDiv1{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.icon{
+  width: 38px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.p2{
+  font-family: 'Open Sans', sans-serif;
+  color: #041562;
+  font-size: 17px;
+  padding-left: 3px;
+}
+
+
+                                        /* Projects */
+
+.projectsDiv{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+}
+.projectsCard{
+  margin-right: 50px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background: #eeeeee;
+  -webkit-box-shadow: 5px 5px 15px #d4d4d4, -5px -5px 15px #ffffff;
+  box-shadow: 5px 5px 15px #d4d4d4, -5px -5px 15px #ffffff;
+  width: 550px;
+}
+/*
+.projectsCard:hover{
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background: #eeeeee;
+  -webkit-box-shadow: 5px 5px 15px #d4d4d4, -5px -5px 15px #ffffff;
+  box-shadow: 5px 5px 15px #d4d4d4, -5px -5px 15px #ffffff;
+  cursor: pointer;
+} */
+
+#projectLogo1{
+  font-family: 'Comfortaa', cursive;
+  color: black;
+  font-size: 30px;
+  padding: 30px;
+}
+#projectLogo1Blue{
+  color: #0017e4;
+}
+
+.projectTag{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p3{
+  font-family: 'Open Sans', sans-serif;
+  color: #041562;
+  padding: 30px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.cardImg{
+  width: 100%;
+  height: auto;
+  border-radius: 30px 30px 0 0;
+}
+
+
+#hr2{
+  border-top: 2px dashed #041562;
+  margin-top: 130px;
+  width: 100%;
+}
+
+
+.footer{
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.icon2{
+  width: 32px;
+  height: auto;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+
+
+.cardExtra{
+  font-family: 'Montserrat', sans-serif;
+  color: #11468F;
+  font-size: 25px;
+  text-shadow: 1px 1px #11468F ; /* #11468F */
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  /*  Media Query   for mobile screen  */
+
+
+@media  screen and (max-width:550px) and (min-width:0px) {
+
+  #bodyMain{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #img1{
+    display: none;
+  }
+  #imgMain{
+    width: 95%;
+    padding-left: 0;
+  }
+  /*about class*/
+  .about{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  /*tech sention*/
+  .techIconDiv{
+    flex-direction: column;
+    margin-top: 5px;
+    align-items: baseline;
+  }
+  .icon{
+    margin-left: 100px;
+  }
+  /*projects card section*/
+  .projectsDiv{
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    width: 90%;
+  }
+  .projectsCard{
+    margin-right: 0;
+    margin-top: 35px;
+    width: 100%;
+  }
+  /*footer class*/
+  .footer{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 455px) and (min-width: 0px) {
+  #titleName{
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 0px) {
+  #titleName{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 385px) and (min-width: 0px) {
+  #titleName{
+    font-size: 45px;
+  }
+}
